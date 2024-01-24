@@ -24,6 +24,20 @@ const config = {
       sans: ['var(--font-sans)', 'sans-serif'],
       heading: ['var(--font-heading)', 'serif']
     },
+    colors: {
+      brand: {
+        darker: '#261932',
+        primary: '#9333EA',
+        secondary: '#D3BDEC'
+      },
+      white: '#FFF',
+      gray: '#746C7C',
+      divider: '#E4E4E4',
+      background: {
+        DEFAULT: '#FAF5FF',
+        alternative: '#FDFBFF'
+      }
+    },
     extend: {
       spacing: {
         18: '72px'
