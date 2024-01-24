@@ -8,9 +8,9 @@ type RootLayoutProps = {
 }
 
 export const metadata: Metadata = {
-  title: 'Next 14 BFB',
+  title: 'Origin Six',
   description:
-    'Boilerplate default de projetos em Next14 desenvolvido por Lucas Samuel'
+    'Projeto disponibilizado pela rocketseat na nlw#6 trilha web, desenvolvido por Lucas Samuel'
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
@@ -20,7 +20,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         className={cn(
           fontSans.variable,
           fontHeading.variable,
-          'min-h-screen bg-white font-sans text-neutral-700 antialiased'
+          'bg-background text-gray min-h-screen font-sans antialiased'
         )}>
         {children}
       </body>
