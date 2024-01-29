@@ -8,7 +8,7 @@ export default function Divider({ className }: DividerProps) {
   return (
     <hr
       className={cn(
-        'from-brand-secondary/0 via-brand-secondary to-brand-primary h-0.5 border-none bg-gradient-to-l via-70%',
+        'h-0.5 border-none bg-gradient-to-l from-brand-secondary/0 via-brand-secondary via-70% to-brand-primary',
         className
       )}
     />
