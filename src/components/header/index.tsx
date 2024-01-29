@@ -55,7 +55,7 @@ export default function Header() {
 
         <button
           onClick={toggleIsOpen}
-          className='grid size-8 cursor-pointer place-items-center rounded text-brand-darker hover:bg-brand-primary/5 hover:text-brand-primary'>
+          className='grid size-8 cursor-pointer place-items-center rounded text-brand-darker hover:bg-brand-primary/5 hover:text-brand-primary lg:hidden'>
           {!isOpen && <MenuIcon className='size-6 ' />}
           {isOpen && <XIcon className='size-6 ' />}
         </button>
