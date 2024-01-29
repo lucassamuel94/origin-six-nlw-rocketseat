@@ -1,7 +1,8 @@
-import type { Metadata } from 'next'
-import '@/styles/globals.css'
-import { fontHeading, fontSans } from '@/styles/fonts'
+import Footer from '@/components/footer'
 import { cn } from '@/lib/utils'
+import { fontHeading, fontSans } from '@/styles/fonts'
+import '@/styles/globals.css'
+import type { Metadata } from 'next'
 
 type RootLayoutProps = {
   children: React.ReactNode
@@ -20,9 +21,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
         className={cn(
           fontSans.variable,
           fontHeading.variable,
-          'bg-background text-gray min-h-screen font-sans antialiased'
+          'min-h-screen bg-background font-sans text-gray antialiased'
         )}>
         {children}
+        <Footer />
       </body>
     </html>
   )
