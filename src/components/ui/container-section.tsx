@@ -12,7 +12,7 @@ export default function ContainerSection({
   className
 }: ContainerSectionProps) {
   return (
-    <section id={id} className={cn('container py-20 lg:py-40', className)}>
+    <section id={id} className={cn('py-20 lg:py-40', className)}>
       {children}
     </section>
   )
