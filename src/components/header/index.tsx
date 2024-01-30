@@ -47,7 +47,7 @@ export default function Header() {
   ]
 
   return (
-    <header>
+    <header className='border-b border-divider'>
       <nav className='container flex h-18 w-full items-center justify-between'>
         <Link href={'/'}>
           <Logo className='h-6' />
@@ -75,7 +75,7 @@ export default function Header() {
       </nav>
 
       {isOpen && (
-        <ul className='container grid gap-5 py-3 lg:hidden'>
+        <ul className='container grid gap-5 pb-6 pt-3 lg:hidden'>
           <span className='sr-only grid'>Menu Mobile</span>
           {navItems.map(item => (
             <Link
