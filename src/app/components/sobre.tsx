@@ -6,7 +6,7 @@ import pictureSobre from '@/assets/image02.jpg'
 
 export default function Sobre() {
   return (
-    <ContainerSection className=''>
+    <ContainerSection className='' id='sobre'>
       <div className='container space-y-16 pt-10 lg:grid lg:grid-cols-2 lg:items-start lg:space-y-0'>
         <div className='relative'>
           <Image
